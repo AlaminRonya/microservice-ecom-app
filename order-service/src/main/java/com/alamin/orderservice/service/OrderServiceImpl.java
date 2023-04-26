@@ -45,22 +45,23 @@ public class OrderServiceImpl implements OrderService {
                 .bodyToMono(InventoryResponse[].class)
                 .block();
 
-        assert inventoryResponsesArray != null;
-        if (inventoryResponsesArray.length == orderLineItems.size()){
-            orderRepository.save(order);
-        }else {
-            throw new IllegalArgumentException("Product is not available");
-        }
-
-
-
-//        final boolean allProductInStock = Arrays.stream(inventoryResponsesArray)
-//                .allMatch(InventoryResponse::isInStock);
-//        if (allProductInStock){
+//        assert inventoryResponsesArray != null;
+//        if (inventoryResponsesArray.length == orderLineItems.size()){
 //            orderRepository.save(order);
 //        }else {
 //            throw new IllegalArgumentException("Product is not available");
 //        }
+
+
+        assert inventoryResponsesArray != null;
+        final boolean allProductInStock = Arrays.stream(inventoryResponsesArray)
+                .allMatch(InventoryResponse::isInStock);
+
+        if (allProductInStock){
+            orderRepository.save(order);
+        }else {
+            throw new IllegalArgumentException("Product is not available");
+        }
 
     }
 

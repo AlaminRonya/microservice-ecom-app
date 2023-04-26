@@ -1,7 +1,9 @@
+D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\config\WebClientConfig.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\model\Order.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\model\OrderLineItems.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\repository\OrderLineItemsRepository.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\controller\OrderController.java
+D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\dto\InventoryResponse.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\dto\RequestOrderDTO.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\dto\RequestOrderLineItemDTO.java
 D:\microservice-ecommerce\microservice-ecom-app\order-service\src\main\java\com\alamin\orderservice\interfaces\OrderService.java

@@ -3,4 +3,5 @@ D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\
 D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\com\alamin\inventoryservice\model\Inventory.java
 D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\com\alamin\inventoryservice\controller\InventoryController.java
 D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\com\alamin\inventoryservice\service\InventoryServiceImpl.java
+D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\com\alamin\inventoryservice\dto\InventoryResponse.java
 D:\microservice-ecommerce\microservice-ecom-app\inventory-service\src\main\java\com\alamin\inventoryservice\interfaces\InventoryService.java
