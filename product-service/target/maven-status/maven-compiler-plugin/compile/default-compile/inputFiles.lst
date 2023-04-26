@@ -1,0 +1,15 @@
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\dto\Response.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\repository\AttachmentRepository.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\mapper\ResponseAttachmentDTOMapper.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\model\Product.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\dto\response\ResponseProductDTO.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\mapper\ResponseProductDTOMapper.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\model\Attachment.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\repository\ProductRepository.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\ProductServiceApplication.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\dto\request\RequestProductDTO.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\service\ProductServiceImpl.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\mapper\RequestProductDTOMapper.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\controller\ProductController.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\interfaces\ProductService.java
+D:\microservice-ecommerce\microservice-ecom-app\product-service\src\main\java\com\alamin\productservice\dto\response\ResponseAttachmentDTO.java

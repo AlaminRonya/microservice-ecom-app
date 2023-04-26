@@ -1,0 +1,6 @@
+com\alamin\inventoryservice\model\Inventory.class
+com\alamin\inventoryservice\repository\InventoryRepository.class
+com\alamin\inventoryservice\controller\InventoryController.class
+com\alamin\inventoryservice\interfaces\InventoryService.class
+com\alamin\inventoryservice\InventoryServiceApplication.class
+com\alamin\inventoryservice\service\InventoryServiceImpl.class
