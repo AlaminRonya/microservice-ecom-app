@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Transactional
 public class OrderServiceImpl implements OrderService {
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
     @Override
     public void placeOrder(RequestOrderDTO dto) {
         System.out.println("=======>"+dto);
@@ -38,9 +38,10 @@ public class OrderServiceImpl implements OrderService {
                 .toList();
 
         // TODO: 4/25/2023 webclient
+        // TODO: 4/27/2023 dynamic port http://localhost:8082/inventory to http://inventory-service/inventory
 
-        final InventoryResponse[] inventoryResponsesArray = webClient.get()
-                .uri("http://localhost:8082/inventory", uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
+        final InventoryResponse[] inventoryResponsesArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/inventory", uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)
                 .block();
