@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.alamin.discoveryserver.DiscoveryServerApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.394 s - in com.alamin.discoveryserver.DiscoveryServerApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.423 s - in com.alamin.discoveryserver.DiscoveryServerApplicationTests
